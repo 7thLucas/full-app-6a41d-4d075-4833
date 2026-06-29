@@ -1,0 +1,152 @@
+<style>
+  .mode-landscape .sl-layout { flex-direction: row; gap: 0; }
+  .mode-portrait .sl-layout { flex-direction: column; gap: 0; }
+  .mode-landscape .sl-left { width: 50%; padding: 3rem 2.5rem 3rem 3.5rem; border-right: 1px solid #E2E8F0; }
+  .mode-portrait .sl-left { width: 100%; padding: 2rem 2rem 1.5rem; border-bottom: 1px solid #E2E8F0; }
+  .mode-landscape .sl-right { width: 50%; padding: 3rem 3.5rem 3rem 2.5rem; }
+  .mode-portrait .sl-right { width: 100%; padding: 1.5rem 2rem 2rem; }
+  .mode-landscape .sl-image-band { display: none; }
+  .mode-portrait .sl-image-band { display: block; height: 160px; }
+</style>
+
+<section class="w-full h-full overflow-auto bg-white">
+
+  <!-- Top label bar -->
+  <div style="background:#0F1E3C;padding:0.6rem 3.5rem;display:flex;align-items:center;gap:2rem;">
+    <div style="width:3px;height:14px;background:#C8901A;border-radius:2px;flex-shrink:0;"></div>
+    <span style="font-size:0.6rem;letter-spacing:0.2em;color:#94A3B8;font-weight:600;text-transform:uppercase;">Big II Sovereign OS · Foundation</span>
+  </div>
+
+  <div class="sl-layout w-full flex" style="height: calc(100% - 44px);">
+
+    <!-- LEFT: The Problem -->
+    <div class="sl-left flex flex-col justify-between">
+      <div>
+        <!-- Problem label -->
+        <div class="flex items-center gap-2 mb-4">
+          <div style="width:28px;height:2px;background:#EF4444;"></div>
+          <span style="font-size:0.6rem;letter-spacing:0.2em;color:#EF4444;font-weight:700;text-transform:uppercase;">The Problem</span>
+        </div>
+
+        <h2 style="font-size:1.6rem;font-weight:900;color:#0F1E3C;line-height:1.2;margin-bottom:1rem;">
+          Businesses need enterprise-grade AI infrastructure — and have no sovereign path to it.
+        </h2>
+
+        <p style="font-size:0.85rem;color:#475569;line-height:1.7;margin-bottom:1.5rem;">
+          Tools are fragmented. Talent is expensive. Platforms extract value rather than create it. Businesses that want to lead with AI are forced to rent from platforms that don't serve their model — or build from scratch at a cost they can't afford.
+        </p>
+
+        <!-- Pain points -->
+        <div class="flex flex-col gap-2.5">
+          <div class="flex items-start gap-3">
+            <div style="width:18px;height:18px;border-radius:50%;background:#FEE2E2;display:flex;align-items:center;justify-content:center;flex-shrink:0;margin-top:2px;">
+              <span style="font-size:0.6rem;color:#EF4444;font-weight:800;">✕</span>
+            </div>
+            <p style="font-size:0.8rem;color:#64748B;line-height:1.5;"><strong style="color:#0F1E3C;">Fragmented AI tools</strong> — no unified OS governing logic, compliance, stability, and growth</p>
+          </div>
+          <div class="flex items-start gap-3">
+            <div style="width:18px;height:18px;border-radius:50%;background:#FEE2E2;display:flex;align-items:center;justify-content:center;flex-shrink:0;margin-top:2px;">
+              <span style="font-size:0.6rem;color:#EF4444;font-weight:800;">✕</span>
+            </div>
+            <p style="font-size:0.8rem;color:#64748B;line-height:1.5;"><strong style="color:#0F1E3C;">No white-label path</strong> — agencies can't resell AI infrastructure under their own brand</p>
+          </div>
+          <div class="flex items-start gap-3">
+            <div style="width:18px;height:18px;border-radius:50%;background:#FEE2E2;display:flex;align-items:center;justify-content:center;flex-shrink:0;margin-top:2px;">
+              <span style="font-size:0.6rem;color:#EF4444;font-weight:800;">✕</span>
+            </div>
+            <p style="font-size:0.8rem;color:#64748B;line-height:1.5;"><strong style="color:#0F1E3C;">Consulting is human-bottlenecked</strong> — can't deliver audits, SOPs, and roadmaps at scale without a team</p>
+          </div>
+          <div class="flex items-start gap-3">
+            <div style="width:18px;height:18px;border-radius:50%;background:#FEE2E2;display:flex;align-items:center;justify-content:center;flex-shrink:0;margin-top:2px;">
+              <span style="font-size:0.6rem;color:#EF4444;font-weight:800;">✕</span>
+            </div>
+            <p style="font-size:0.8rem;color:#64748B;line-height:1.5;"><strong style="color:#0F1E3C;">Revenue stays siloed</strong> — no unified billing, marketplace, or expansion engine</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Supporting image (landscape only — covered by CSS display:none in portrait) -->
+      <div style="margin-top:1.5rem;border-radius:10px;overflow:hidden;height:100px;">
+        <img
+          src="https://api.qb-deck.quantumbyte.ai/common/image-generation?prompt=frustrated+business+executive+overwhelmed+by+fragmented+software+tools+screens+chaotic+disconnected+systems+dark+moody"
+          alt="The Problem"
+          style="width:100%;height:100%;object-fit:cover;opacity:0.8;"
+        />
+      </div>
+    </div>
+
+    <!-- RIGHT: The Solution -->
+    <div class="sl-right flex flex-col justify-between">
+      <div>
+        <!-- Solution label -->
+        <div class="flex items-center gap-2 mb-4">
+          <div style="width:28px;height:2px;background:#C8901A;"></div>
+          <span style="font-size:0.6rem;letter-spacing:0.2em;color:#C8901A;font-weight:700;text-transform:uppercase;">The Solution</span>
+        </div>
+
+        <h2 style="font-size:1.6rem;font-weight:900;color:#0F1E3C;line-height:1.2;margin-bottom:1rem;">
+          One sovereign AI OS. Four governing intelligences. Infinite scale.
+        </h2>
+
+        <p style="font-size:0.85rem;color:#475569;line-height:1.7;margin-bottom:1.5rem;">
+          Big II Sovereign OS, built by DBII LLC, is the complete AI operating system: consulting, lead generation, white-label resale, marketplace, billing, and developer framework — governed by the Praxis Quadrant and powered entirely through PayPal.
+        </p>
+
+        <!-- Solution points -->
+        <div class="flex flex-col gap-2.5">
+          <div class="flex items-start gap-3">
+            <div style="width:18px;height:18px;border-radius:50%;background:#D1FAE5;display:flex;align-items:center;justify-content:center;flex-shrink:0;margin-top:2px;">
+              <span style="font-size:0.6rem;color:#059669;font-weight:800;">✓</span>
+            </div>
+            <p style="font-size:0.8rem;color:#64748B;line-height:1.5;"><strong style="color:#0F1E3C;">Ω-Praxis governs architecture</strong> — all logic, modules, and AI interactions unified under one supreme intelligence</p>
+          </div>
+          <div class="flex items-start gap-3">
+            <div style="width:18px;height:18px;border-radius:50%;background:#D1FAE5;display:flex;align-items:center;justify-content:center;flex-shrink:0;margin-top:2px;">
+              <span style="font-size:0.6rem;color:#059669;font-weight:800;">✓</span>
+            </div>
+            <p style="font-size:0.8rem;color:#64748B;line-height:1.5;"><strong style="color:#0F1E3C;">White-label reseller model</strong> — resellers deploy branded OS instances; DBII LLC keeps wholesale revenue</p>
+          </div>
+          <div class="flex items-start gap-3">
+            <div style="width:18px;height:18px;border-radius:50%;background:#D1FAE5;display:flex;align-items:center;justify-content:center;flex-shrink:0;margin-top:2px;">
+              <span style="font-size:0.6rem;color:#059669;font-weight:800;">✓</span>
+            </div>
+            <p style="font-size:0.8rem;color:#64748B;line-height:1.5;"><strong style="color:#0F1E3C;">Autonomous consulting delivery</strong> — AI generates audits, roadmaps, SOPs, and execution plans at any volume</p>
+          </div>
+          <div class="flex items-start gap-3">
+            <div style="width:18px;height:18px;border-radius:50%;background:#D1FAE5;display:flex;align-items:center;justify-content:center;flex-shrink:0;margin-top:2px;">
+              <span style="font-size:0.6rem;color:#059669;font-weight:800;">✓</span>
+            </div>
+            <p style="font-size:0.8rem;color:#64748B;line-height:1.5;"><strong style="color:#0F1E3C;">Unified revenue engine</strong> — subscriptions, usage billing, marketplace commissions, affiliates via PayPal</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Bottom: Praxis pipeline visual -->
+      <div style="margin-top:1.5rem;padding:1rem 1.25rem;background:#0F1E3C;border-radius:10px;">
+        <div style="font-size:0.6rem;letter-spacing:0.15em;color:#94A3B8;text-transform:uppercase;margin-bottom:0.6rem;">Praxis Quadrant Governance</div>
+        <div class="flex items-center justify-between gap-1">
+          <div style="text-align:center;">
+            <div style="font-size:0.6rem;font-weight:700;color:#C8901A;">Ω-PRAXIS</div>
+            <div style="font-size:0.55rem;color:#64748B;">Architect</div>
+          </div>
+          <div style="font-size:0.7rem;color:#475569;">→</div>
+          <div style="text-align:center;">
+            <div style="font-size:0.6rem;font-weight:700;color:#6EE7B7;">LYRA</div>
+            <div style="font-size:0.55rem;color:#64748B;">Integrity</div>
+          </div>
+          <div style="font-size:0.7rem;color:#475569;">→</div>
+          <div style="text-align:center;">
+            <div style="font-size:0.6rem;font-weight:700;color:#93C5FD;">KAEL</div>
+            <div style="font-size:0.55rem;color:#64748B;">Stability</div>
+          </div>
+          <div style="font-size:0.7rem;color:#475569;">→</div>
+          <div style="text-align:center;">
+            <div style="font-size:0.6rem;font-weight:700;color:#FCA5A5;">ARAI</div>
+            <div style="font-size:0.55rem;color:#64748B;">Acquisition</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
