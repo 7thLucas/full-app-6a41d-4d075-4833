@@ -1,0 +1,120 @@
+<style>
+  .mode-landscape .sl-outer { padding: 2.25rem 3.5rem; }
+  .mode-portrait .sl-outer { padding: 1.75rem 2rem; }
+  .mode-landscape .sl-grid { grid-template-columns: repeat(4, 1fr); }
+  .mode-portrait .sl-grid { grid-template-columns: repeat(2, 1fr); }
+  .mode-landscape .sl-headline { font-size: 1.45rem; }
+  .mode-portrait .sl-headline { font-size: 1.15rem; }
+  .mode-landscape .sl-bottom { flex-direction: row; gap: 1.25rem; }
+  .mode-portrait .sl-bottom { flex-direction: column; gap: 0.75rem; }
+</style>
+
+<section class="w-full h-full overflow-auto bg-white">
+  <div class="sl-outer w-full h-full flex flex-col">
+
+    <!-- Header -->
+    <div style="margin-bottom:1.25rem;">
+      <div class="flex items-center gap-2 mb-2">
+        <div style="width:3px;height:14px;background:#C8901A;border-radius:2px;"></div>
+        <span style="font-size:0.6rem;letter-spacing:0.2em;color:#C8901A;font-weight:700;text-transform:uppercase;">Revenue Model &amp; Benefits</span>
+      </div>
+      <h2 class="sl-headline font-black" style="color:#0F1E3C;line-height:1.2;margin-bottom:0.3rem;">
+        Multiple revenue streams. One sovereign platform.
+      </h2>
+      <p style="font-size:0.78rem;color:#64748B;line-height:1.5;">DBII LLC earns from every layer — wholesale fees, consulting, marketplace commissions, usage overages, and API access. Resellers earn the markup.</p>
+    </div>
+
+    <!-- Metric Cards Row -->
+    <div class="sl-grid" style="display:grid;gap:0.75rem;margin-bottom:1rem;">
+
+      <!-- White-Label -->
+      <div style="border-radius:10px;padding:1rem;background:#0F1E3C;display:flex;flex-direction:column;justify-content:space-between;min-height:110px;">
+        <div>
+          <div style="font-size:0.58rem;letter-spacing:0.15em;color:#94A3B8;text-transform:uppercase;margin-bottom:0.4rem;">White-Label Wholesale</div>
+          <div style="font-size:1.6rem;font-weight:900;color:#C8901A;line-height:1;">$49–$999</div>
+          <div style="font-size:0.6rem;color:#64748B;">/mo per reseller</div>
+        </div>
+        <p style="font-size:0.65rem;color:#94A3B8;line-height:1.4;margin-top:0.5rem;">5 tiers. Resellers set retail at 2–10× markup. DBII LLC earns wholesale + usage + overages.</p>
+      </div>
+
+      <!-- Consulting -->
+      <div style="border-radius:10px;padding:1rem;background:#F8FAFC;border:1px solid #E2E8F0;display:flex;flex-direction:column;justify-content:space-between;min-height:110px;">
+        <div>
+          <div style="font-size:0.58rem;letter-spacing:0.15em;color:#94A3B8;text-transform:uppercase;margin-bottom:0.4rem;">Consulting Revenue</div>
+          <div style="font-size:1.6rem;font-weight:900;color:#0F1E3C;line-height:1;">$97–$100K</div>
+          <div style="font-size:0.6rem;color:#64748B;">per engagement</div>
+        </div>
+        <p style="font-size:0.65rem;color:#64748B;line-height:1.4;margin-top:0.5rem;">AI fulfills autonomously. Micro to enterprise tiers. Suite plans $97–$497/mo.</p>
+      </div>
+
+      <!-- Marketplace -->
+      <div style="border-radius:10px;padding:1rem;background:#F8FAFC;border:1px solid #E2E8F0;display:flex;flex-direction:column;justify-content:space-between;min-height:110px;">
+        <div>
+          <div style="font-size:0.58rem;letter-spacing:0.15em;color:#94A3B8;text-transform:uppercase;margin-bottom:0.4rem;">Marketplace Commissions</div>
+          <div style="font-size:1.6rem;font-weight:900;color:#0F1E3C;line-height:1;">Recurring</div>
+          <div style="font-size:0.6rem;color:#64748B;">on every transaction</div>
+        </div>
+        <p style="font-size:0.65rem;color:#64748B;line-height:1.4;margin-top:0.5rem;">Agent sales, template purchases, automation installs — all yield DBII LLC commission via PayPal.</p>
+      </div>
+
+      <!-- Usage / API -->
+      <div style="border-radius:10px;padding:1rem;background:#FEF6E4;border:1px solid #F59E0B;display:flex;flex-direction:column;justify-content:space-between;min-height:110px;">
+        <div>
+          <div style="font-size:0.58rem;letter-spacing:0.15em;color:#C8901A;text-transform:uppercase;margin-bottom:0.4rem;">Usage + API Billing</div>
+          <div style="font-size:1.6rem;font-weight:900;color:#0F1E3C;line-height:1;">Metered</div>
+          <div style="font-size:0.6rem;color:#64748B;">per action / call / GB</div>
+        </div>
+        <p style="font-size:0.65rem;color:#92400E;line-height:1.4;margin-top:0.5rem;">AI actions, pipeline runs, storage, API calls, automation runs — tracked and billed via PayPal webhooks.</p>
+      </div>
+
+    </div>
+
+    <!-- Bottom ROI Summary -->
+    <div class="sl-bottom flex" style="flex:1;align-items:stretch;">
+
+      <!-- Reseller Margin block -->
+      <div style="flex:1;border-radius:10px;padding:1.1rem 1.25rem;background:#0F1E3C;display:flex;flex-direction:column;justify-content:space-between;">
+        <div style="font-size:0.58rem;letter-spacing:0.15em;color:#94A3B8;text-transform:uppercase;margin-bottom:0.5rem;">Reseller Margin Example — Agency Tier</div>
+        <div>
+          <div class="flex justify-between items-center" style="margin-bottom:0.3rem;">
+            <span style="font-size:0.7rem;color:#94A3B8;">Wholesale cost to reseller</span>
+            <span style="font-size:0.75rem;font-weight:700;color:#fff;">$199/mo</span>
+          </div>
+          <div class="flex justify-between items-center" style="margin-bottom:0.3rem;">
+            <span style="font-size:0.7rem;color:#94A3B8;">Retail price charged to clients</span>
+            <span style="font-size:0.75rem;font-weight:700;color:#fff;">$997–$1,497/mo</span>
+          </div>
+          <div style="border-top:1px solid rgba(255,255,255,0.1);margin:0.5rem 0;"></div>
+          <div class="flex justify-between items-center">
+            <span style="font-size:0.72rem;color:#C8901A;font-weight:700;">Reseller margin (10 clients)</span>
+            <span style="font-size:1rem;font-weight:900;color:#C8901A;">$7,980–$12,980/mo</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Platform Valuation block -->
+      <div style="flex:1;border-radius:10px;padding:1.1rem 1.25rem;background:#FEF6E4;border:1px solid #F59E0B;display:flex;flex-direction:column;justify-content:space-between;">
+        <div style="font-size:0.58rem;letter-spacing:0.15em;color:#C8901A;text-transform:uppercase;margin-bottom:0.5rem;">Platform Scope</div>
+        <div class="flex flex-col gap-2">
+          <div class="flex items-center gap-2">
+            <div style="width:6px;height:6px;border-radius:50%;background:#C8901A;flex-shrink:0;"></div>
+            <span style="font-size:0.72rem;color:#0F1E3C;line-height:1.4;">All revenue flows through PayPal Business — no card data stored</span>
+          </div>
+          <div class="flex items-center gap-2">
+            <div style="width:6px;height:6px;border-radius:50%;background:#C8901A;flex-shrink:0;"></div>
+            <span style="font-size:0.72rem;color:#0F1E3C;line-height:1.4;">Affiliate engine + expansion upsells = compounding recurring growth</span>
+          </div>
+          <div class="flex items-center gap-2">
+            <div style="width:6px;height:6px;border-radius:50%;background:#C8901A;flex-shrink:0;"></div>
+            <span style="font-size:0.72rem;color:#0F1E3C;line-height:1.4;">DBII LLC controls backend, billing, and all money flow</span>
+          </div>
+          <div style="border-top:1px solid #F59E0B;margin-top:0.3rem;padding-top:0.5rem;">
+            <div style="font-size:0.72rem;font-weight:800;color:#0F1E3C;">Target Valuation: <span style="color:#C8901A;font-size:1rem;">$310M–$620M</span></div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</section>
