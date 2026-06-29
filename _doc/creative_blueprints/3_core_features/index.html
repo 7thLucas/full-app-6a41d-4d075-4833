@@ -1,0 +1,103 @@
+<style>
+  .mode-landscape .sl-outer { padding: 2rem 3.5rem 2rem; }
+  .mode-portrait .sl-outer { padding: 1.5rem 2rem; }
+  .mode-landscape .sl-grid { grid-template-columns: repeat(3, 1fr); }
+  .mode-portrait .sl-grid { grid-template-columns: repeat(2, 1fr); }
+  .mode-landscape .sl-headline { font-size: 1.5rem; }
+  .mode-portrait .sl-headline { font-size: 1.2rem; }
+</style>
+
+<section class="w-full h-full overflow-auto bg-white">
+  <div class="sl-outer w-full h-full flex flex-col">
+
+    <!-- Header -->
+    <div style="margin-bottom:1.25rem;">
+      <div class="flex items-center gap-2 mb-2">
+        <div style="width:3px;height:14px;background:#C8901A;border-radius:2px;"></div>
+        <span style="font-size:0.6rem;letter-spacing:0.2em;color:#C8901A;font-weight:700;text-transform:uppercase;">Core Capabilities</span>
+      </div>
+      <h2 class="sl-headline font-black" style="color:#0F1E3C;line-height:1.15;margin-bottom:0.4rem;">
+        Every engine your empire needs — in one sovereign OS.
+      </h2>
+      <p style="font-size:0.78rem;color:#64748B;line-height:1.5;">The Praxis Quadrant powers every capability below. Select your role to see what the OS delivers for you.</p>
+    </div>
+
+    <!-- Persona Chips -->
+    <div class="flex gap-2 flex-wrap" style="margin-bottom:1.25rem;">
+      <div class="px-3 py-1.5 rounded-full" style="background:#0F1E3C;cursor:pointer;">
+        <span style="font-size:0.68rem;font-weight:700;color:#fff;">White-Label Reseller</span>
+      </div>
+      <div class="px-3 py-1.5 rounded-full" style="background:#F8FAFC;border:1px solid #E2E8F0;cursor:pointer;">
+        <span style="font-size:0.68rem;font-weight:600;color:#64748B;">Consulting Client</span>
+      </div>
+      <div class="px-3 py-1.5 rounded-full" style="background:#F8FAFC;border:1px solid #E2E8F0;cursor:pointer;">
+        <span style="font-size:0.68rem;font-weight:600;color:#64748B;">Enterprise</span>
+      </div>
+      <div class="px-3 py-1.5 rounded-full" style="background:#F8FAFC;border:1px solid #E2E8F0;cursor:pointer;">
+        <span style="font-size:0.68rem;font-weight:600;color:#64748B;">Developer</span>
+      </div>
+    </div>
+
+    <!-- Feature Cards Grid -->
+    <div class="sl-grid flex-1" style="display:grid;gap:0.75rem;align-content:start;">
+
+      <!-- Card 1 -->
+      <div style="border:1px solid #E2E8F0;border-radius:10px;padding:1rem 1.1rem;background:#fff;border-left:3px solid #C8901A;">
+        <div style="font-size:0.7rem;font-weight:800;color:#0F1E3C;margin-bottom:0.3rem;">🏷 White-Label System</div>
+        <p style="font-size:0.72rem;color:#64748B;line-height:1.5;">Deploy your own branded OS with custom domain, logo, AI names, pricing, and billing. Full tenant isolation. Clients never see DBII LLC.</p>
+        <div style="margin-top:0.5rem;display:flex;gap:1rem;">
+          <span style="font-size:0.6rem;font-weight:700;color:#C8901A;">5 Wholesale Tiers</span>
+          <span style="font-size:0.6rem;color:#94A3B8;">$49–$999/mo</span>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div style="border:1px solid #E2E8F0;border-radius:10px;padding:1rem 1.1rem;background:#fff;border-left:3px solid #0F1E3C;">
+        <div style="font-size:0.7rem;font-weight:800;color:#0F1E3C;margin-bottom:0.3rem;">🤝 Consulting Engine</div>
+        <p style="font-size:0.72rem;color:#64748B;line-height:1.5;">Autonomous AI consulting: audits, roadmaps, SOPs, execution plans. Covers business, finance, AI, brand, ops, and executive advisory.</p>
+        <div style="margin-top:0.5rem;display:flex;gap:1rem;">
+          <span style="font-size:0.6rem;font-weight:700;color:#C8901A;">$97 → $100K+</span>
+          <span style="font-size:0.6rem;color:#94A3B8;">Micro to Enterprise</span>
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div style="border:1px solid #E2E8F0;border-radius:10px;padding:1rem 1.1rem;background:#fff;border-left:3px solid #6EE7B7;">
+        <div style="font-size:0.7rem;font-weight:800;color:#0F1E3C;margin-bottom:0.3rem;">📡 Lead Generation Engine</div>
+        <p style="font-size:0.72rem;color:#64748B;line-height:1.5;">ARAI sources leads from web, directories, and social. AI qualifies, nurtures, handles objections, books appointments, and closes micro-offers.</p>
+        <div style="margin-top:0.5rem;">
+          <span style="font-size:0.6rem;font-weight:700;color:#059669;">Multi-Channel: Email · SMS · DM · Voice</span>
+        </div>
+      </div>
+
+      <!-- Card 4 -->
+      <div style="border:1px solid #E2E8F0;border-radius:10px;padding:1rem 1.1rem;background:#fff;border-left:3px solid #93C5FD;">
+        <div style="font-size:0.7rem;font-weight:800;color:#0F1E3C;margin-bottom:0.3rem;">🛒 AI Marketplace</div>
+        <p style="font-size:0.72rem;color:#64748B;line-height:1.5;">Browse, install, and deploy agents, automations, templates, and modules. Paid + free listings. Built-in PayPal monetization and commission splits.</p>
+        <div style="margin-top:0.5rem;">
+          <span style="font-size:0.6rem;font-weight:700;color:#3B82F6;">8 Categories of Agents</span>
+        </div>
+      </div>
+
+      <!-- Card 5 -->
+      <div style="border:1px solid #E2E8F0;border-radius:10px;padding:1rem 1.1rem;background:#fff;border-left:3px solid #A78BFA;">
+        <div style="font-size:0.7rem;font-weight:800;color:#0F1E3C;margin-bottom:0.3rem;">🤖 Custom Agent Builder</div>
+        <p style="font-size:0.72rem;color:#64748B;line-height:1.5;">Build agents with personality, skill sets, workflows, triggers, and integrations. Cross-agent automations, multi-step pipelines, and custom logic.</p>
+        <div style="margin-top:0.5rem;">
+          <span style="font-size:0.6rem;font-weight:700;color:#7C3AED;">Voice · Video · Document · Image AI</span>
+        </div>
+      </div>
+
+      <!-- Card 6 -->
+      <div style="border:1px solid #E2E8F0;border-radius:10px;padding:1rem 1.1rem;background:#0F1E3C;">
+        <div style="font-size:0.7rem;font-weight:800;color:#C8901A;margin-bottom:0.3rem;">⚙️ Automation System</div>
+        <p style="font-size:0.72rem;color:#94A3B8;line-height:1.5;">Trigger-based, scheduled, conditional, and multi-step pipelines. Self-healing, Kael-stabilized, Lyra-validated. Full developer framework: API, SDK, webhooks.</p>
+        <div style="margin-top:0.5rem;">
+          <span style="font-size:0.6rem;font-weight:700;color:#F59E0B;">AES-256 Encrypted · Enterprise SSO</span>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</section>
