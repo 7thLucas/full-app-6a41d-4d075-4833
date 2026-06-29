@@ -16,6 +16,40 @@ Businesses lack embedded AI infrastructure. They bolt surface-level tools on top
 
 ---
 
+## Initial Build — What Was Shipped (MVP v1)
+
+**Status: Built and live.** The following screens and systems are deployed in the app:
+
+### Authentication
+- Email + Password login, registration, forgot/reset password
+- Google OAuth (one-click) via `authentication-google` scaffold
+- JWT cookie session; `AuthProvider` wrapping entire app
+
+### App Shell
+- Fixed deep-navy (`#0F1E3C`) sidebar with white icons, gold active state
+- Praxis Quadrant live status panel: Ω-Praxis, Lyra, Kael, ARAI with color-coded dots
+- Top bar with system health indicator
+- Footer on every page: *© DBII LLC · All Rights Reserved · Privacy Policy · Powered by DBII LLC*
+
+### Routes Shipped
+| Route | What It Does |
+|---|---|
+| `/dashboard` | AI Activity Feed, 4 Governor KPI cards, Revenue Snapshot, Integrity Alerts, System Health, Quick Actions |
+| `/consulting` | Ω-Praxis LLM generation, engagement pipeline with progress bars, consulting tier pricing |
+| `/consulting/new` | New engagement form |
+| `/leads` | ARAI pipeline with lead scoring, channel breakdown, LLM outreach strategy generator |
+| `/whitelabel` | Reseller portal table, 4-step onboarding wizard (brand → tier → PayPal → go live) |
+| `/marketplace` | 8 pre-built agents across governors, install/uninstall, category filter |
+| `/automations` | 6 cross-governor pipelines with live toggle, run counts, trigger type guide |
+| `/analytics` | MRR bar chart (12 months), leads chart, AI governor usage breakdown, ARAI revenue forecasts |
+| `/billing` | Current plan, usage meters, PayPal payment method, invoice history |
+| `/settings` | Account details, team management, integration connectors, API key management |
+
+### Configurables in App
+Brand colors, governor names, white-label tier pricing, feature flags (`enableWhitelabel`, `enableConsultingEngine`, `enableLeadEngine`, `enableMarketplace`), consulting price range — all editable via portal config.
+
+---
+
 ## Day-One Experience (Confirmed First Feature)
 The beachhead operation: a white-label owner logs in, sets their brand (logo, colors, domain, AI names) and connects their PayPal account, and has a fully live branded portal they can sell to clients — within minutes of signing up. No dev work. No technical setup. Instant reseller activation.
 
