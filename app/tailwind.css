@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: #0F1E3C;
+    --foreground: #F8FAFC;
+    --card: #162040;
+    --card-foreground: #F8FAFC;
+    --popover: #162040;
+    --popover-foreground: #F8FAFC;
+    --primary: #C8901A;
+    --primary-foreground: #FFFFFF;
+    --secondary: #1a2d54;
+    --secondary-foreground: #F8FAFC;
+    --muted: #1a2d54;
+    --muted-foreground: #94A3B8;
+    --accent: #C8901A;
+    --accent-foreground: #FFFFFF;
+    --destructive: #EF4444;
+    --destructive-foreground: #FFFFFF;
+    --border: #1E3460;
+    --input: #1E3460;
+    --ring: #C8901A;
+    --radius: 0.75rem;
+    --chart-1: #C8901A;
+    --chart-2: #059669;
+    --chart-3: #3B82F6;
+    --chart-4: #EF4444;
+    --chart-5: #8B5CF6;
+    --navbar-background: #FFFFFF;
+    --sidebar-background: #0F1E3C;
+    --sidebar-foreground: #F8FAFC;
+    --sidebar-primary: #C8901A;
+    --sidebar-primary-foreground: #FFFFFF;
+    --sidebar-accent: #1a2d54;
+    --sidebar-accent-foreground: #F8FAFC;
+    --sidebar-border: #1E3460;
+    --sidebar-ring: #C8901A;
+    --heading-font: 'Inter Tight', sans-serif;
+    --text-font: 'Inter', sans-serif;
+  }
+
+  .dark {
+    --background: #0F1E3C;
+    --foreground: #F8FAFC;
+    --card: #162040;
+    --card-foreground: #F8FAFC;
+    --popover: #162040;
+    --popover-foreground: #F8FAFC;
+    --primary: #C8901A;
+    --primary-foreground: #FFFFFF;
+    --secondary: #1a2d54;
+    --secondary-foreground: #F8FAFC;
+    --muted: #1a2d54;
+    --muted-foreground: #94A3B8;
+    --accent: #C8901A;
+    --accent-foreground: #FFFFFF;
+    --destructive: #EF4444;
+    --destructive-foreground: #FFFFFF;
+    --border: #1E3460;
+    --input: #1E3460;
+    --ring: #C8901A;
+    --chart-1: #C8901A;
+    --chart-2: #059669;
+    --chart-3: #3B82F6;
+    --chart-4: #EF4444;
+    --chart-5: #8B5CF6;
+    --navbar-background: #0F1E3C;
+    --sidebar-background: #0F1E3C;
+    --sidebar-foreground: #F8FAFC;
+    --sidebar-primary: #C8901A;
+    --sidebar-primary-foreground: #FFFFFF;
+    --sidebar-accent: #1a2d54;
+    --sidebar-accent-foreground: #F8FAFC;
+    --sidebar-border: #1E3460;
+    --sidebar-ring: #C8901A;
+    --heading-font: 'Inter Tight', sans-serif;
+    --text-font: 'Inter', sans-serif;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-family: var(--text-font);
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+  }
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+::-webkit-scrollbar-track {
+  background: var(--background);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--border);
+  border-radius: 2px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--primary);
+}
+
+/* Governor accent utilities */
+.governor-praxis { color: #C8901A; }
+.governor-lyra   { color: #059669; }
+.governor-kael   { color: #3B82F6; }
+.governor-arai   { color: #EF4444; }
+
+.governor-praxis-bg { background-color: rgba(200,144,26,0.12); border-left: 3px solid #C8901A; }
+.governor-lyra-bg   { background-color: rgba(5,150,105,0.12);  border-left: 3px solid #059669; }
+.governor-kael-bg   { background-color: rgba(59,130,246,0.12); border-left: 3px solid #3B82F6; }
+.governor-arai-bg   { background-color: rgba(239,68,68,0.12);  border-left: 3px solid #EF4444; }
