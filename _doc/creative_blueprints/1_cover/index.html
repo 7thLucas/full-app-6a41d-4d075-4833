@@ -1,0 +1,98 @@
+<style>
+  .mode-landscape .sl-layout { flex-direction: row; }
+  .mode-portrait .sl-layout { flex-direction: column; }
+  .mode-landscape .sl-content { width: 55%; padding: 3rem 3rem 3rem 3.5rem; }
+  .mode-portrait .sl-content { width: 100%; padding: 2.5rem 2rem 1.5rem; }
+  .mode-landscape .sl-visual { width: 45%; }
+  .mode-portrait .sl-visual { width: 100%; height: 40%; }
+  .mode-landscape .sl-headline { font-size: 2.75rem; line-height: 1.1; }
+  .mode-portrait .sl-headline { font-size: 2rem; line-height: 1.15; }
+</style>
+
+<section class="w-full h-full overflow-auto bg-white">
+  <div class="sl-layout w-full h-full flex">
+
+    <!-- LEFT: Content Column -->
+    <div class="sl-content flex flex-col justify-between" style="background: #fff;">
+
+      <!-- Top: Brand + Headline -->
+      <div>
+        <!-- Micro label -->
+        <div class="flex items-center gap-2 mb-6">
+          <div style="width:3px;height:16px;background:#C8901A;border-radius:2px;"></div>
+          <span style="font-size:0.65rem;letter-spacing:0.2em;color:#C8901A;font-weight:700;text-transform:uppercase;">DBII LLC · Sovereign Platform</span>
+        </div>
+
+        <!-- Main headline -->
+        <h1 class="sl-headline font-black" style="color:#0F1E3C;letter-spacing:-0.02em;margin-bottom:1.25rem;">
+          The Sovereign<br/>AI Operating<br/>System
+        </h1>
+
+        <!-- Tagline -->
+        <p style="font-size:1rem;color:#475569;line-height:1.6;max-width:26rem;margin-bottom:2rem;">
+          Built by DBII LLC. Powered by the Praxis Quadrant. A fully autonomous AI OS that delivers consulting, generates leads, runs a marketplace, and powers white-label empires — at scale.
+        </p>
+
+        <!-- Praxis Quadrant chips -->
+        <div class="flex flex-wrap gap-2" style="margin-bottom:2rem;">
+          <div class="flex items-center gap-1.5 px-3 py-1.5 rounded-full" style="background:#0F1E3C;">
+            <div style="width:6px;height:6px;border-radius:50%;background:#C8901A;"></div>
+            <span style="font-size:0.7rem;font-weight:700;color:#fff;letter-spacing:0.05em;">Ω-PRAXIS · Architect</span>
+          </div>
+          <div class="flex items-center gap-1.5 px-3 py-1.5 rounded-full" style="background:#0F1E3C;">
+            <div style="width:6px;height:6px;border-radius:50%;background:#6EE7B7;"></div>
+            <span style="font-size:0.7rem;font-weight:700;color:#fff;letter-spacing:0.05em;">LYRA · Integrity</span>
+          </div>
+          <div class="flex items-center gap-1.5 px-3 py-1.5 rounded-full" style="background:#0F1E3C;">
+            <div style="width:6px;height:6px;border-radius:50%;background:#93C5FD;"></div>
+            <span style="font-size:0.7rem;font-weight:700;color:#fff;letter-spacing:0.05em;">KAEL · Stability</span>
+          </div>
+          <div class="flex items-center gap-1.5 px-3 py-1.5 rounded-full" style="background:#0F1E3C;">
+            <div style="width:6px;height:6px;border-radius:50%;background:#FCA5A5;"></div>
+            <span style="font-size:0.7rem;font-weight:700;color:#fff;letter-spacing:0.05em;">ARAI · Acquisition</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Bottom: Stats bar + Attribution -->
+      <div>
+        <!-- Stat bar -->
+        <div class="flex gap-6" style="padding: 1rem 0; border-top: 1px solid #E2E8F0; border-bottom: 1px solid #E2E8F0; margin-bottom: 1.5rem;">
+          <div>
+            <div style="font-size:1.25rem;font-weight:900;color:#0F1E3C;">$310M–$620M</div>
+            <div style="font-size:0.65rem;color:#94A3B8;letter-spacing:0.08em;text-transform:uppercase;">Target Valuation</div>
+          </div>
+          <div style="width:1px;background:#E2E8F0;"></div>
+          <div>
+            <div style="font-size:1.25rem;font-weight:900;color:#0F1E3C;">5 Tiers</div>
+            <div style="font-size:0.65rem;color:#94A3B8;letter-spacing:0.08em;text-transform:uppercase;">White-Label Plans</div>
+          </div>
+          <div style="width:1px;background:#E2E8F0;"></div>
+          <div>
+            <div style="font-size:1.25rem;font-weight:900;color:#0F1E3C;">4 AIs</div>
+            <div style="font-size:0.65rem;color:#94A3B8;letter-spacing:0.08em;text-transform:uppercase;">Praxis Quadrant</div>
+          </div>
+        </div>
+        <!-- Attribution -->
+        <data-attribution />
+      </div>
+    </div>
+
+    <!-- RIGHT: Visual -->
+    <div class="sl-visual relative overflow-hidden" style="background:#0F1E3C;">
+      <img
+        src="https://api.qb-deck.quantumbyte.ai/common/image-generation?prompt=sovereign+AI+command+center+dark+navy+holographic+control+panels+glowing+gold+circuit+nodes+executive+war+room+ultra+premium+cinematic"
+        alt="Big II Sovereign OS"
+        class="w-full h-full"
+        style="object-fit:cover;opacity:0.85;"
+      />
+      <!-- Gold overlay accent -->
+      <div style="position:absolute;bottom:0;left:0;right:0;height:4px;background:linear-gradient(90deg,#C8901A,#F59E0B,#C8901A);"></div>
+      <!-- OS label overlay -->
+      <div style="position:absolute;top:1.5rem;right:1.5rem;background:rgba(200,144,26,0.15);border:1px solid rgba(200,144,26,0.4);border-radius:6px;padding:0.4rem 0.8rem;">
+        <span style="font-size:0.65rem;font-weight:700;color:#F59E0B;letter-spacing:0.15em;">BIG II OS</span>
+      </div>
+    </div>
+
+  </div>
+</section>
