@@ -32,10 +32,12 @@ Four governing AI agents control all system operations:
 ---
 
 ## Primary Users
-- **White-Label Resellers:** Businesses and agencies who purchase wholesale OS access from DBII LLC and resell it as their own branded software under their own domain, logo, and pricing.
-- **Consulting Clients:** Businesses receiving AI-driven consulting deliverables — audits, roadmaps, SOPs, workflows, execution plans.
-- **Enterprise Clients:** Corporate organizations using the OS for AI transformation, automation, and operations at scale with Enterprise SSO.
-- **Developers / Partners:** Builders extending the OS via the Developer Framework (API gateway, SDK, plugin framework, webhook builder, custom code runner).
+Confirmed day-one user types (in order of primary login intent):
+
+- **Founders** — need AI infrastructure embedded into how they run, sell, and scale their business without hiring a full team
+- **Agency Owners** — need autonomous consulting delivery, lead generation, and client management under one roof
+- **Enterprise Ops Teams** — need governed, compliant, stable AI pipelines at scale with Enterprise SSO and audit trails
+- **White-Label Resellers** — need a fully branded version of the OS to resell as their own software, keeping the markup
 
 ---
 
