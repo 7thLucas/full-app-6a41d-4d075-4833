@@ -65,6 +65,7 @@ Additional fees collected by DBII LLC: usage fees, API fees, overage billing, ad
 - Micro Consulting: $97–$297
 - Core Consulting: $497–$2,500
 - Advanced Consulting: $3,500–$7,500
+- **App Builder Consulting: $8,000** — builds fully functioning client apps using Big II OS as the backend
 - Executive Consulting: $10,000–$25,000+
 - AI-Only Consulting Suite: $97–$497/mo
 - Enterprise AI Consulting: $25,000–$100,000/yr
