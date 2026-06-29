@@ -188,3 +188,14 @@ Landing Page → Google Login → Account Creation → Plan Selection → PayPal
 
 ## Brand Tone
 Authority, precision, sovereignty, power. Built for those who control infrastructure — not rent it. Dark, decisive, elite. The OS is a command center, not a tool.
+
+---
+
+## Legal & Footer
+All app pages and product surfaces carry the following footer:
+
+> © DBII LLC · All Rights Reserved · Privacy Policy · Powered by DBII LLC
+
+- Copyright holder: DBII LLC
+- Privacy Policy link required on all user-facing pages
+- "Powered by DBII LLC" attribution on all white-label-adjacent surfaces
