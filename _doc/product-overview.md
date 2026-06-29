@@ -16,6 +16,11 @@ Businesses lack embedded AI infrastructure. They bolt surface-level tools on top
 
 ---
 
+## Day-One Experience (Confirmed First Feature)
+The beachhead operation: a white-label owner logs in, sets their brand (logo, colors, domain, AI names) and connects their PayPal account, and has a fully live branded portal they can sell to clients — within minutes of signing up. No dev work. No technical setup. Instant reseller activation.
+
+---
+
 ## What It Is
 Big II Sovereign OS is a fully autonomous, multi-agent AI operating system built and owned by DBII LLC. It provides intrinsic infrastructure — AI woven into every business function rather than sitting on top of it. The OS unifies all AI agents, automation pipelines, billing systems, marketplaces, client portals, and developer frameworks under a single governed platform — controlled entirely by DBII LLC.
 
