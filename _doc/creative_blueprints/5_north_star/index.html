@@ -1,0 +1,171 @@
+<style>
+  .mode-landscape .sl-outer { padding: 2rem 3.5rem 2rem; }
+  .mode-portrait .sl-outer { padding: 1.5rem 2rem; }
+  .mode-landscape .sl-ops-grid { grid-template-columns: repeat(3, 1fr); }
+  .mode-portrait .sl-ops-grid { grid-template-columns: 1fr; }
+  .mode-landscape .sl-value-row { flex-direction: row; gap: 1rem; }
+  .mode-portrait .sl-value-row { flex-direction: column; gap: 0.75rem; }
+  .mode-landscape .sl-headline { font-size: 1.4rem; }
+  .mode-portrait .sl-headline { font-size: 1.1rem; }
+</style>
+
+<section class="w-full h-full overflow-auto bg-white">
+  <div class="sl-outer w-full h-full flex flex-col">
+
+    <!-- Header -->
+    <div style="margin-bottom:1rem;">
+      <div class="flex items-center justify-between gap-2 mb-2">
+        <div class="flex items-center gap-2">
+          <div style="width:3px;height:14px;background:#C8901A;border-radius:2px;"></div>
+          <span style="font-size:0.6rem;letter-spacing:0.2em;color:#C8901A;font-weight:700;text-transform:uppercase;">North Star Metric</span>
+        </div>
+        <div style="font-size:0.6rem;color:#94A3B8;background:#F8FAFC;border:1px solid #E2E8F0;border-radius:20px;padding:0.2rem 0.75rem;font-style:italic;">
+          Projected impact — based on your inputs
+        </div>
+      </div>
+      <h2 class="sl-headline font-black" style="color:#0F1E3C;line-height:1.2;margin-bottom:0.25rem;">
+        Weekly Verified Operations
+      </h2>
+      <p style="font-size:0.75rem;color:#64748B;line-height:1.5;">The number this OS lives or dies by — sovereign intelligence performing verifiable work every week. Not signups. Not sessions. Operations completed.</p>
+    </div>
+
+    <!-- 3 Operation Types -->
+    <div class="sl-ops-grid" style="display:grid;gap:0.75rem;margin-bottom:0.9rem;">
+
+      <!-- Op 1: Consulting Deliverables -->
+      <div style="border-radius:10px;border:1px solid #E2E8F0;padding:1rem;background:#fff;border-top:3px solid #C8901A;">
+        <div style="font-size:0.62rem;font-weight:800;color:#0F1E3C;text-transform:uppercase;letter-spacing:0.1em;margin-bottom:0.5rem;">
+          ① Consulting Deliverables Fulfilled
+        </div>
+        <p style="font-size:0.68rem;color:#64748B;line-height:1.5;margin-bottom:0.6rem;">An audit, roadmap, SOP, or execution plan completed and delivered to a consulting client by the Ω-Praxis engine.</p>
+        <!-- Formula -->
+        <div style="background:#FEF6E4;border-radius:8px;padding:0.6rem 0.75rem;margin-bottom:0.5rem;">
+          <div style="font-size:0.62rem;color:#92400E;font-weight:600;margin-bottom:0.2rem;">Formula</div>
+          <div style="font-size:0.68rem;color:#0F1E3C;font-weight:700;">
+            <span style="background:#FDE68A;border-radius:4px;padding:0.1rem 0.4rem;">Active Clients</span>
+            ×
+            <span style="background:#FDE68A;border-radius:4px;padding:0.1rem 0.4rem;">Deliverables/Client/Wk</span>
+            = WVO
+          </div>
+        </div>
+        <!-- Assumption chips -->
+        <div class="flex gap-1.5 flex-wrap">
+          <div style="font-size:0.58rem;background:#FEE2E2;color:#991B1B;border-radius:20px;padding:0.15rem 0.5rem;font-weight:600;">
+            Assumption — adjust: 20 clients
+          </div>
+          <div style="font-size:0.58rem;background:#FEE2E2;color:#991B1B;border-radius:20px;padding:0.15rem 0.5rem;font-weight:600;">
+            Assumption — adjust: 2 deliverables/wk
+          </div>
+        </div>
+        <div style="margin-top:0.5rem;font-size:0.7rem;color:#C8901A;font-weight:800;">
+          20 × 2 = <span style="font-size:0.9rem;">40 ops/wk</span> (projected)
+        </div>
+      </div>
+
+      <!-- Op 2: Leads Qualified & Booked -->
+      <div style="border-radius:10px;border:1px solid #E2E8F0;padding:1rem;background:#fff;border-top:3px solid #059669;">
+        <div style="font-size:0.62rem;font-weight:800;color:#0F1E3C;text-transform:uppercase;letter-spacing:0.1em;margin-bottom:0.5rem;">
+          ② Leads Qualified &amp; Booked
+        </div>
+        <p style="font-size:0.68rem;color:#64748B;line-height:1.5;margin-bottom:0.6rem;">A lead processed through ARAI's pipeline — qualified, nurtured, and either booked or micro-offer closed.</p>
+        <!-- Formula -->
+        <div style="background:#D1FAE5;border-radius:8px;padding:0.6rem 0.75rem;margin-bottom:0.5rem;">
+          <div style="font-size:0.62rem;color:#065F46;font-weight:600;margin-bottom:0.2rem;">Formula</div>
+          <div style="font-size:0.68rem;color:#0F1E3C;font-weight:700;">
+            <span style="background:#A7F3D0;border-radius:4px;padding:0.1rem 0.4rem;">Leads/Day</span>
+            ×
+            <span style="background:#A7F3D0;border-radius:4px;padding:0.1rem 0.4rem;">7 days</span>
+            ×
+            <span style="background:#A7F3D0;border-radius:4px;padding:0.1rem 0.4rem;">Conv. Rate</span>
+            = WVO
+          </div>
+        </div>
+        <div class="flex gap-1.5 flex-wrap">
+          <div style="font-size:0.58rem;background:#FEE2E2;color:#991B1B;border-radius:20px;padding:0.15rem 0.5rem;font-weight:600;">
+            Assumption — adjust: 50 leads/day
+          </div>
+          <div style="font-size:0.58rem;background:#FEE2E2;color:#991B1B;border-radius:20px;padding:0.15rem 0.5rem;font-weight:600;">
+            Assumption — adjust: 10% conv.
+          </div>
+        </div>
+        <div style="margin-top:0.5rem;font-size:0.7rem;color:#059669;font-weight:800;">
+          50 × 7 × 10% = <span style="font-size:0.9rem;">35 ops/wk</span> (projected)
+        </div>
+      </div>
+
+      <!-- Op 3: White-Label Activations -->
+      <div style="border-radius:10px;border:1px solid #E2E8F0;padding:1rem;background:#fff;border-top:3px solid #3B82F6;">
+        <div style="font-size:0.62rem;font-weight:800;color:#0F1E3C;text-transform:uppercase;letter-spacing:0.1em;margin-bottom:0.5rem;">
+          ③ White-Label Deployments Activated
+        </div>
+        <p style="font-size:0.68rem;color:#64748B;line-height:1.5;margin-bottom:0.6rem;">A reseller's branded OS instance fully onboarded, configured, and live — a new revenue tenant under DBII LLC.</p>
+        <!-- Formula -->
+        <div style="background:#DBEAFE;border-radius:8px;padding:0.6rem 0.75rem;margin-bottom:0.5rem;">
+          <div style="font-size:0.62rem;color:#1E40AF;font-weight:600;margin-bottom:0.2rem;">Formula</div>
+          <div style="font-size:0.68rem;color:#0F1E3C;font-weight:700;">
+            <span style="background:#BFDBFE;border-radius:4px;padding:0.1rem 0.4rem;">New Resellers/Mo</span>
+            ÷ 4 weeks = WVO
+          </div>
+        </div>
+        <div class="flex gap-1.5 flex-wrap">
+          <div style="font-size:0.58rem;background:#FEE2E2;color:#991B1B;border-radius:20px;padding:0.15rem 0.5rem;font-weight:600;">
+            Assumption — adjust: 8 resellers/mo
+          </div>
+        </div>
+        <div style="margin-top:0.5rem;font-size:0.7rem;color:#3B82F6;font-weight:800;">
+          8 ÷ 4 = <span style="font-size:0.9rem;">2 ops/wk</span> (projected)
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Total WVO + Value Row -->
+    <div class="sl-value-row flex" style="flex:1;align-items:stretch;">
+
+      <!-- Total WVO block -->
+      <div style="background:#0F1E3C;border-radius:10px;padding:1rem 1.25rem;min-width:180px;display:flex;flex-direction:column;justify-content:center;">
+        <div style="font-size:0.58rem;letter-spacing:0.15em;color:#94A3B8;text-transform:uppercase;margin-bottom:0.4rem;">Total Projected WVO</div>
+        <div style="font-size:2.2rem;font-weight:900;color:#C8901A;line-height:1;">77</div>
+        <div style="font-size:0.65rem;color:#64748B;">verified operations / week</div>
+        <div style="font-size:0.6rem;color:#475569;margin-top:0.3rem;">40 consulting + 35 lead-gen + 2 deployments</div>
+      </div>
+
+      <!-- Value derivation block -->
+      <div style="flex:1;border-radius:10px;border:1px solid #E2E8F0;padding:1rem 1.25rem;background:#F8FAFC;display:flex;flex-direction:column;justify-content:space-between;">
+        <div style="font-size:0.58rem;letter-spacing:0.15em;color:#94A3B8;text-transform:uppercase;margin-bottom:0.5rem;">Value Derivation (Projected)</div>
+        <div class="flex flex-col gap-1.5">
+          <div class="flex justify-between items-center">
+            <span style="font-size:0.68rem;color:#475569;">40 consulting ops × avg $500 value/op</span>
+            <span style="font-size:0.72rem;font-weight:700;color:#0F1E3C;">$20,000/wk</span>
+          </div>
+          <div class="flex justify-between items-center">
+            <span style="font-size:0.68rem;color:#475569;">35 lead-gen ops × avg $197 micro-offer close</span>
+            <span style="font-size:0.72rem;font-weight:700;color:#0F1E3C;">$6,895/wk</span>
+          </div>
+          <div class="flex justify-between items-center">
+            <span style="font-size:0.68rem;color:#475569;">2 deployments × avg $199/mo wholesale</span>
+            <span style="font-size:0.72rem;font-weight:700;color:#0F1E3C;">$398/mo</span>
+          </div>
+          <div style="border-top:1px solid #E2E8F0;margin:0.2rem 0;"></div>
+          <div class="flex justify-between items-center">
+            <span style="font-size:0.7rem;font-weight:700;color:#0F1E3C;">Total projected value/week</span>
+            <span style="font-size:0.9rem;font-weight:900;color:#C8901A;">~$26,895</span>
+          </div>
+          <div class="flex justify-between items-center">
+            <span style="font-size:0.7rem;font-weight:700;color:#0F1E3C;">Annualized (×52)</span>
+            <span style="font-size:0.9rem;font-weight:900;color:#C8901A;">~$1.4M/yr</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Framing note -->
+      <div style="border-radius:10px;padding:1rem 1.1rem;background:#FEF6E4;border:1px solid #F59E0B;max-width:180px;display:flex;flex-direction:column;justify-content:center;gap:0.5rem;">
+        <div style="font-size:0.62rem;font-weight:800;color:#92400E;text-transform:uppercase;letter-spacing:0.08em;">Adjust These</div>
+        <p style="font-size:0.65rem;color:#92400E;line-height:1.5;">All red chips above are editable assumptions. Replace with your real client count, lead volume, and reseller pipeline to get your true projected WVO.</p>
+        <div style="font-size:0.6rem;color:#B45309;font-style:italic;border-top:1px solid #F59E0B;padding-top:0.4rem;">These are projections from your inputs — not measured results.</div>
+      </div>
+
+    </div>
+
+  </div>
+</section>
